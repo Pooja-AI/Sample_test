@@ -1,0 +1,90 @@
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: #ad8bff;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  /* border-bottom: 3px solid #fff;
+    display: inline-block;
+    padding-bottom: 1px; */
+}
+.chart-suss{
+  font-size: 12px;
+}
+.value-sus{
+  font-size:12px;
+}
+.nav-tabs {
+  border-bottom: none;
+  margin-left: 10px;
+}
+.subheading{
+  color: yellow;
+  font-size: 12px;
+}
+.nav-link, .nav-link:hover {
+  color: white;
+}
+
+.report-sub-container-1 {
+  padding: 1%;
+  
+  margin: 2%  2% 0;
+}
+
+.report-sub-container-2 {
+  background-color: rgba(33, 72, 131, 0.5);
+  border-radius: 5px;
+  padding: 2%;
+}
+.report-sub-container-3 {
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
+  border: 1px solid #747ba9;
+  background: rgba(255, 255, 255, 0.05);
+  overflow-y:scroll;
+  height: 500px;
+  padding: 2%;
+}
+.container-3-title {
+  padding: 1% 1% 4% 1%;
+  font-size:13px;
+}
+.title{
+  font-size: 14px;
+}
+.scroll-overflow-container {
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.scroll-overflow-container1 {
+  max-height: 200px;
+  overflow-y: scroll;
+  width:1050px;
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+.overflow-container-box {
+  background-color: #3c4069;
+  border-radius: 0.625rem;
+  border: 1px solid #747ba9;
+  margin: 0 2% 2% 0%;
+  padding-top: 1%;
+}
+.number-style {
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #747ba9;
+  padding: 6px 19px 6px 11px;
+  border-radius: 50%;
+}
+.overflow-container-title {
+  color: #3bbc6f;
+  font-weight: bold;
+  font-size: 14px;
+}

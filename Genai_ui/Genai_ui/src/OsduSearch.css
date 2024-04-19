@@ -1,0 +1,980 @@
+.main-so {
+
+   
+   
+    display:flex;
+    flex-direction:column;
+    min-height: 300px;
+  
+  }
+
+  .table-layout-so{
+    table-layout: fixed;
+    width: 46vw;
+    background-color: white;
+    color: black;
+  }
+  .header-so {
+   
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #8392B6;
+    flex-direction: row;
+    height: 70px;
+  }
+  .logo-header-so{
+  
+    width:25%;
+  }
+  .Heading-so{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 20px;
+  }
+  .admin-img-so{
+    width: 85%;
+  }
+  .admin-text-so{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  
+  .collapse-img-so{
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+    align-self: flex-end;
+   }
+  
+  
+  .Admin-so{
+   display: flex;
+   flex-direction: row;
+   margin-left: 1100px;
+   justify-content: end;
+   padding-right: 10px;
+   align-items: center;
+   align-self: flex-end;
+  }
+  
+  
+  .second-container-so {
+    
+  
+  
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border-color: #8392B6;
+    margin-left: 30px;
+    min-height: 540px;
+    border: 3px;
+    padding: 20px;
+    margin-right: 15px;
+    text-align: left;
+    background-color: #25304C;
+  
+  }
+  .text-o{
+    color:#ffffff;
+    font-size: 12px;
+  }
+  top-containerss-o{
+    display: flex;
+    flex-direction: column;
+  }
+  .top-container-o{
+    display: flex;
+    flex-direction: row;
+    min-height: 45px;
+    /* border: 1px solid #8392B6; */
+  }
+  .left-section-so{
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+  }
+  .select-dropdown-so{
+    color: #8392B6;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  .id-o::placeholder{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: center;
+  }
+  .data-display-o{
+    color: white;
+  
+  }
+  
+  .button-so{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+   margin-left: 5px;
+    width: 120px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #8799C5;
+    min-height: 50px;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: rgba(116, 123, 169, 1);
+    height:30px;
+  }
+  /* Add styles for the custom Accordion */
+
+  .osduresponse-o{
+    overflow-y: scroll;
+    border-radius: 5px;
+    color: black;
+    background-color: #F1F5FD;
+  }
+  .loading-so {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+  }
+  .multiSelectContainer-so {
+    position: relative;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    text-align: left;
+    color:#8392B6;
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  .loading::after-so {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+  }
+  
+  @keyframes spin {
+    to-s {
+      transform: rotate(360deg);
+    }
+  }
+  .assistant-heading-so {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  
+  
+  
+  .middle-panel-so {
+  
+    display: flex;
+  
+    width:45%;
+  
+    padding:20px;
+    padding-top:5px;
+    flex-direction: column;
+  
+    justify-content: start;
+  
+    align-items: center;
+  
+    background-color: #142137;
+  
+  }
+  
+  
+  
+  
+  .right-panel-so {
+  
+    position: relative;
+    width:30%;
+    background-color: #142137;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(0deg, #002644, #002644),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border: 1px solid #335169;
+  
+  }
+  
+  
+  
+  
+  .title-so {
+  
+    font-family: 'Arial', sans-serif;
+  
+    font-size: 28px;
+  
+    color: #333;
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  
+  
+  .dropdown-container-so {
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  .dropdown-label-so {
+  
+    color:#BEC1D6;
+    font-size:12px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .custom-multiselect .multiselect__placeholder::before {
+    content: 'Select Category'; /* Set the placeholder text */
+    color: #ffffff; /* Set the text color to white */
+    /* Add any other custom styles for the placeholder */
+  }
+  
+  .logo-class-so{
+    
+    width: 55%;
+    margin-left: 20px;
+  }
+  .selected-files-container-so {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+  }
+  .pdf-icon-o{
+    padding: 10px;
+  
+  }
+  
+  /* CSS for selected files */
+  .selected-file-so {
+    background-color: #8392B6;
+    display: flex;
+    flex-direction: row;
+    min-width: 30%;
+    min-height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 10px;
+  }
+  .selected-file-o{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    min-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 13px;
+  }
+  .dropdown-select-so {
+  
+    background: #FFFFFF;
+    appearance: none;
+    border: 2px dashed;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px;
+    color:#8392B6;
+    font-size: 12px;
+  
+  }
+  
+  .option-class-so{
+    background-color:#FFFFFF;
+  }
+  .option-class-so:checked{
+    background-color: #0080DC;
+  }
+  .category-container-so{
+    width: 50%;
+    background: #FFFFFF;
+    border: 2px dashed;
+    box-shadow: 0px 0px 0px 2px grey;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px;
+    color:#8392B6;
+    font-size: 12px;
+  
+  }
+  
+  .drag-so{
+    align-content: center;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-weight:500;
+  }
+  
+  /* .drag-logo{
+  
+    
+  
+  } */
+  
+  .browse-so{
+    align-content: center;
+    color: #fff;;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight:500;
+  }
+
+  .accordion-button:not(.collapsed){
+    background-color:#A100FF ;
+    color: #fff;
+  }
+  
+  .Assistant-o{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(54, 54, 89);
+    padding-top: 5px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .header-class-o{
+    background-color: #3A578C;
+  }
+  
+  .file-class-so{
+    visibility:hidden;
+  }
+  
+  .or-class-so{
+    color:#FFFFFF4D;
+    font-size: 12px;
+    font-weight:500;
+  }
+  .Assist-header-so{
+   
+    align-self: flex-start;
+    margin-left: 35px;
+    color:#8392B6;
+  }
+  
+  .upload-container-so {
+  
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 130px;
+    border-radius: 15px;
+    background: #294170;
+    border: 1px solid #8392B6;
+  
+  }
+  .drag-container-so{
+   
+    background-color: #3E5FA2;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    align-self: center;
+    width: 40%;
+    flex-direction: row;
+  }
+  .drag-logo-so{
+    width: 90%;
+  }
+  .collapse-class-oo{
+    width:3%;
+  }
+  
+  .placeholder{
+   
+    color:#000;
+    font-size: 10px;
+  }
+  .browse-container-so{
+    background-color: #4286F5;
+    border-radius: 5px;
+    border: 1px solid #A100FF;
+    margin: 10px;
+    padding-left: 50px;
+    height: 30px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    width: 40%;
+    font-size: 10px;
+    flex-direction: row;
+  }
+  
+  .image-so{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+    flex-direction: row;
+  }
+  .energy-header-so{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 8px;
+    color: #ffffff;
+  }
+  
+  .upload-container label-so {
+  
+    display: block;
+  
+  }
+  
+  
+  
+  .corrosion-result-so{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    justify-content:center;
+    font-size:15px;
+    font-weight:500;
+    color:#FFFFFF;
+    min-height: 20px;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #122B45, #122B45);
+    border: 2px dotted #0080DC;
+  
+  }
+  
+  
+  .upload-container-so input[type='file'] {
+  
+    display: block;
+    
+  
+  }
+  
+  .multipleSelection-so {
+    padding-left: 30px;
+    width: 80%;
+    
+  }
+  
+  .selectBox-so {
+    position: relative;
+  }
+  
+  .selectBox select-so {
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px dashed;
+    box-shadow: 0px 0px 0px 2px grey;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px;
+    color:#8392B6;
+    font-size: 12px;
+    
+  }
+  
+  .overSelect-so {
+    position: absolute;
+    
+  }
+  
+  .micimg-o{
+    justify-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #checkBoxes-s {
+    /* display: none; */
+    border: 1px #8DF5E4 solid;
+  }
+  
+  #checkBoxes label-s {
+    display: block;
+  }
+  
+  #checkBoxes label:hover-s {
+    background-color: #4F615E;
+  }
+  
+  
+  .corrosion-detection-so {
+  
+  
+    font-size: 24px;
+  
+    color: #FFFFFF;
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  
+  
+  .industry-image-so {
+  
+    width: 100%;
+  
+    height: 300px;
+  
+    background-image: url('https://www.ibef.org/assets/images/Oil-Gas-2.jpg'); /* Replace with your own image */
+  
+    background-size: cover;
+  
+    background-position: center;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 5px;
+  
+  }
+  
+  
+  
+  
+  .uploaded-image-so {
+  
+    display: block;
+    height: 250px;
+    width: 520px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    /* max-width: 100%; */
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-position: center;
+  
+  
+  }
+  .checkbox-label-s {
+    /* Add styles for the checkbox label */
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  
+  .show-checkboxes-s {
+    /* Add styles for the "Show Categories" text */
+    cursor: pointer;
+    color: #007bff; /* Change the color as needed */
+    margin-top: 10px;
+  }
+  
+  .multiSelectContainer-so input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8392B6;
+    opacity: 1; /* Firefox */
+  }
+  .chat-input-so input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+  }
+  
+  
+  #checkBoxes-s {
+    /* Add styles for the checkboxes container */
+    display: none;
+    margin-top: 10px;
+  }
+
+  .multiSelectContainer-s input {
+   
+    font-size: 12px;
+    color: #8392B6;
+   
+  }
+  
+  
+  .chat-popup-s {
+  
+    
+  
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  
+    align-items: flex-end;
+  
+    /* background-color: #007bff; */
+  
+    color: white;
+  
+    padding: 10px;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  
+  .robot-icon-so {
+  
+    width: 20px;
+  
+    height: 20px;
+  
+    margin-right: 10px;
+  
+    background-image: url('https://www.ibef.org/assets/images/Oil-Gas-2.jpg'); /* Replace with the path to your custom robot icon image */
+  
+    background-size: cover;
+  
+  }
+  
+  
+  
+  
+  .chat-popup-text-so {
+  
+    
+  
+    font-size: 14px;
+  
+  }
+  .summary-so{
+    font-size: 17px;
+    overflow-y: scroll ;
+    margin: 30px;
+    color: #fff;
+    max-width: 44vw;
+  }
+  .summary-header-o{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 20px;
+    color:#fff;
+  }
+  .icon-o{
+    margin-right: 50px;
+    height: 30px;
+    color: rgba(107, 92, 209, 1);
+   
+  }
+  .icon-row-o{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #8392B6;
+    border-bottom: 1px solid #8392B6;
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+  /* Add your other CSS styles here */
+  
+  .header-starts-with-hyphen {
+    /* Apply your custom styling for headers starting with hyphen */
+    /* For example: */
+    background-color: lightgray;
+  }
+  .internalItemClasses{
+    color:red;
+  }
+  .header-is-numeric {
+    /* Apply your custom styling for numeric headers */
+    /* For example: */
+    background-color: lightblue;
+  }
+  
+  /* ... (Other CSS rules) */
+  
+  
+  .chatbot-container-so {
+  
+    flex: 1;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+  
+    width: 96%;
+    align-self: center;
+    min-height: 520px;
+    border: 1px solid #8392B6;
+    background-color: #1E203D;
+    border: 1px solid #6B5CD1;
+    border-radius: 3px;
+  
+  }
+  .top-chat-container-so{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border-color: #8392B6;
+    height: 60px;
+    border: 3px; 
+    text-align: left;
+    background-color: #4B70B4;
+  
+  }
+  .right-section-so{
+      display: flex;
+      flex-direction: column;
+    
+      height: 660px;
+      width: 100%;
+      margin-right: 20px;
+      border: 1px solid #8392B6;
+      border-radius: 3px;
+      align-content: flex-end;
+  }
+  .popup-message-so{
+    background-color: #8392B6;
+    color: #ffffff;
+  }
+  
+  
+  
+  .chat-messages-so {
+    overflow-y:  scroll;
+    height: 459px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .chat-icon-so{
+    width:20%;
+  }
+  
+  
+  .chat-message-so {
+  
+    padding: 10px;
+  
+    margin-bottom: 5px;
+    
+    border-radius: 5px;
+  
+    font-family: 'Arial', sans-serif;
+  
+    font-size: 14px;
+  
+  }
+  .searchWrapper {
+    padding: 2px;
+  
+  }
+  .icon-o.active {
+    color: white; /* Change color for active icons */
+  }
+  .icon-o.hover {
+    color: #00f; /* Change color for active icons */
+  }
+  
+  .user-so {
+
+    color: white;
+    background-color: rgba(116, 123, 169, 1);
+    border-radius: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    text-align:start;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 35px;
+  
+  }
+  .dropdowns-o{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+  }
+  .Category-select-o{
+   
+    border-radius: 5px;
+    border: 1px solid #8799C5;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgb(54, 54, 89);
+    color: white;
+   
+    height: 30px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    width: 150px;
+    font-size: 13px;
+    font-weight: 500;
+    flex-direction: row;
+  }
+  
+  .message-icon-o{
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .bot-so {
+  
+    background-color: rgba(45, 50, 90, 1);
+    border-radius: 0px 10px 10px 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 35px;
+    margin: 10px;
+  
+  }
+  
+  .container-so{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    
+  }
+  
+  
+  .chat-input-container-so {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#FFFFFF;
+    background-color: rgb(54, 54, 89);
+    border: 1px solid #6B5CD1;
+    padding: 3%;
+    
+  }
+  .Title-o{
+    color: #000;
+    
+    font-size: 30px;
+    margin-left: 400px;
+  }
+  
+  .send-so{
+    
+    width: 80%;
+    padding-left:5px;
+    
+  }
+  
+  
+  .chat-input-so {
+  
+    margin-left: 35px;
+    margin-right: 10px;
+  
+    padding: 5px;
+    width: 100%;
+    
+    color: #fff;
+    font-size: 14px;
+    height: 50px;
+    border-radius:10px;
+    border: 1px solid #6B5CD1;
+    background-color: #1A1C35;
+  
+  }
+  
+  .chat-input-so:focus{
+    border: 1px solid #494759; 
+  }
+  .check-image-so{
+    border-radius: 10px;
+  
+  
+  }
+  
+  .footer-so {
+  
+    font-family: 'Arial', sans-serif;
+  
+    font-size: 14px;
+  
+    color: #666;
+  
+    text-align: center;
+  
+    margin-top: auto;
+  
+  }
+  .kindquery-o{
+    background-color: #E6DCFC;
+    border-radius: 5px;
+    overflow-y: scroll;
+    color: #000;
+    min-width: 80%;
+  }
+  
+ 
+  
+  
+  .autocomplete-container .suggestions-container ul li a{
+  
+    font: normal normal normal 14px/25px Graphik !important;
+  
+    letter-spacing: 0px;
+  
+    color: #5C5C5C !important;
+  
+    padding: 0 5px !important;
+  
+  }
+
+  .loading-os{
+    color: white;
+  }
+
+  .search-toast-container{
+    margin-top: -7% !important;
+    left: 22% !important;
+  }
+
+  .loader-osdu-search{
+    padding-top: 15px;
+  }
+
+  
+  /* .multiSelectContainer .icon_down_dir::before-s { content: url("./images/dropdown_arrow.svg"); } */

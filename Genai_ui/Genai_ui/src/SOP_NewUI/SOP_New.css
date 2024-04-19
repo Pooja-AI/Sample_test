@@ -1,0 +1,42 @@
+
+.sop-file-upload {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+    /* overflow: hidden; */
+    margin-right: 5px;
+    margin-top: 5px;
+    /* margin-left: 78%; */
+    padding-bottom: 5px;
+  }
+  
+  .sop-file-upload input[type="file"] {
+    font-size: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  .sop-file-upload span {
+    padding: 6px 4px 8px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgba(116, 123, 169, 1);
+    color: rgba(255, 255, 255, 1);
+    /* width:100px; */
+    /* height:20px; */
+    /* margin-left: 60px; */
+    /* background-color: rgba(116, 123, 169, 0.3); */
+  }
+  
+  .sop-file-upload:hover span {
+    background: rgba(116, 123, 169, 1);
+  }
+
+  
+.sop-info-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}

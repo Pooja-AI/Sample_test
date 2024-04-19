@@ -1,0 +1,470 @@
+.apm-a{
+  display:flex;
+  flex-direction:column;
+}
+
+.icon-chat-user-apm {
+  width: 25px;
+  position: absolute;
+  margin-left: 10px;
+  /* margin-right: 10px; */
+  /* bottom: -15px; */
+  /* left: -5px; */
+}
+
+.icon-chat-bot-apm {
+  width: 25px;
+  position: absolute;
+  margin-left: 10px;
+  /* margin-right: 50px; */
+  /* bottom: -15px; */
+  /* right: -5px; */
+}
+.let-apm:hover {
+  color: #D8AC1B;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+::-webkit-scrollbar-track {
+
+background: #747BA9;
+
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+
+background: #fff;
+
+}
+
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+
+background: #fff;  
+
+}
+.apm-img{
+  width:109%;
+  margin-left:20px;
+  margin-right:20px;
+}
+.bottom-apm{
+  display:flex;
+  flex-direction:column;
+  margin:20px;
+  height:250px;
+  width:109%;
+  background-color:rgba(255, 255, 255, 0.05);
+  border-radius:10px;
+}
+.feature-apm{
+  color:white;
+  margin-left:10px;
+  border-bottom:1px solid #AD8BFF;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-weight:500;
+  font-size:14px;
+
+}
+
+.left-apm{
+  display:flex;
+  flex-direction:column;
+  width:750px;
+}
+.bot {
+min-width: 300px;
+
+position: relative;
+max-width: 640px;
+
+/* min-height: 60px; */
+/* max-height: 100%; */
+/* height: fit-content; */
+/* display: block; */
+/* overflow: auto; */
+padding: 10px;
+color: white;
+text-align: left;
+/* margin-right: 30px; */
+width: fit-content;
+float: left;
+
+}
+.feedback-icons .icon {
+  margin-left: 10px; /* Add space between icons */
+  cursor: pointer;
+  transition: color 0.3s; /* Add transition for color change */
+}
+.feedback-icons .icon:hover {
+  color: #c3aff0; /* Change color on hover */
+}
+.feedback-icons .icon:active{
+color:#00c853;
+}
+.feedback-icons .icon:liked{
+  color:#00c853;
+  }
+
+.icon.dislike-icon.active {
+  color: #00c853; /* Your liked color */
+}
+.icons{
+  margin-left: 10px;
+}
+/* Apply specific color to disliked icon */
+.icon.dislike-icon.disliked {
+  color: #ff1744; /* Your disliked color */
+}
+
+  /* Apm.css */
+
+/* Add your default styles for the icons here */
+
+
+/* Styles for the clicked (liked) icon */
+.icon.clicked {
+  color: green; /* Change the color for the clicked icon */
+}
+
+/* Styles for the not clicked (default) icon */
+.icon.not-clicked {
+  color: grey; /* Change the color for the not clicked icon */
+}
+.feedback-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5px; /* Add space between message and icons */
+}
+.user-message{
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.bot-message{
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.bg-user-apm {
+  background-color: #4D5699;
+  border-radius: 0px 10px 10px 10px;
+  border-style: icon solid;
+  padding: 10px;
+  min-width: 50px;
+  
+}
+
+.bg-bot-apm {
+  background-color: rgba(45, 50, 90, 1);
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  min-width: 500px;
+  max-width: 1200px;
+  /* height: auto; */
+}
+.user {
+
+    /* align-items: end; */
+min-width: 50px;
+margin-top: 10px;
+margin-bottom: 10px;
+/* margin-right:10px; */
+/* margin-left: 100px; */
+text-align: left;
+position: relative;
+max-width: 500px;
+/* padding: 10px; */
+width: fit-content;
+float: left;
+
+}
+ .top-suma1{
+  width: 2.5%;
+ margin-left: 100px;
+  margin-right: 5px;
+ 
+
+}
+.top-suma2{
+  width: 2.5%;
+ margin-left: 120px;
+  margin-right: 5px;
+ 
+
+}
+.chatboticon {
+  
+  float: right;
+}
+.top-suma{
+  width: 2.5%;
+  
+ 
+ 
+}
+.Heading-apm{
+  color:#fff;
+  margin-right: 700px;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  padding: 20px
+}
+.chat-messages-apm {
+  overflow-y: scroll;
+  max-height: 450px;
+  margin-bottom: 10px;
+
+}
+.message-icon-s{
+  margin-right: 20px;
+  
+ 
+}
+.top-apm{
+  display:flex;
+  width: 115%;
+  flex-direction:row;
+}
+.top-apm1{
+  display:flex;
+  width: 110%;
+  flex-direction:row;
+}
+.chat-message-apm {
+
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  
+  border-radius: 5px;
+
+  font-family: 'Graphik', sans-serif;
+
+ 
+
+}
+
+.top-left-apm{
+  border-radius:5px;
+  border:1px solid #747BA9;
+  color:white;
+  font-size:14px;
+  background-color:rgba(255, 255, 255, 0.05);
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-top:10px;
+  height:40px;
+  
+}
+.send-apm{
+  width: 50%;
+  background-color:#252843;
+  border: 1px solid #747BA9;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 10px;
+}
+.accb-img{
+  width: 4%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.bottom-top-apm{
+  background-color:#252843;
+  border-top:1px solid #6B5CD1;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+.chat-input1-apm::placeholder{
+ 
+  color:#fff;
+  font-size: 12px;
+  padding-left: 10px;
+  font-style: italic;
+  text-align:start;
+}
+.bottom-b-apm{
+  max-height: 350px;
+}
+.mic1-apm{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-top: 65px;
+}
+.right-t-apm{
+border-bottom: 1px solid rgba(14, 190, 147, 1);
+min-height: 330px;
+}
+.chat-input-apm{
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.chat-input1-apm{
+  background-color:#252843;
+  border: 1px solid #747BA9;
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+  min-height: 150px;
+  max-height: 150px;
+  width: 310px;
+}
+.button-apm{
+background-color: #6B5CD1;
+border: 1px solid #6B5CD1;
+width: 80px;
+margin-top: 20px;
+border-radius: 10px;
+margin-left: 150px;
+margin-right: 50px;
+color: #fff;
+}
+.date-pick{
+  font-size:10px;
+  background-color:#252843;
+  color:white;
+  margin-left:10px;
+  margin-top:20px;
+  padding-left: 22px;
+  border-radius:5px;
+  border: 1px solid #747BA9;
+  width:69px;
+  height:25px;
+}
+.cal-img{
+  width:7%;
+  margin-left:20px;
+  margin-right:10px;
+  margin-top:20px;
+}
+.react-datepicker__close-icon::after {
+  cursor: none;
+  background-color: #252843;
+  color: #252843;
+  border-radius: 10px;
+  padding-top:20px;
+  height: 0px;
+  width: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  content: "";
+}
+.table-container{
+max-width:600px;
+overflow-x:scroll;
+}
+.img-apm-s{
+  display:flex;
+  flex-direction:row;
+}
+.key-apm{
+  font-size:12px;
+  margin-top:20px;
+  padding-left:20px;
+}
+.Category-select{
+  background-color:#252843;
+  width:200px;
+  margin-top:20px;
+  font-size: 12px;
+  height: 30px;
+  justify-content:right;
+  border: 1px solid #747BA9;
+  color:white;
+}
+.side-apm{
+  display:flex;
+  flex-direction:row;
+}
+.bottom-left-apm{
+  border-radius:5px;
+  position: relative;
+  border:1px solid #6B5CD1;
+  height:500px;
+ 
+}
+.asset-img{
+  width:3%;
+  margin-left:40px;
+  margin-top:20px;
+}
+.right-apm{
+  display:flex;
+  background-color:rgba(255, 255, 255, 0.05);
+  margin-left:10px;
+  border-radius:5px;
+  border:1px solid #747BA9;
+  color:white;
+  height:550px;
+  width:380px;
+  flex-direction:column;
+}
+.performance-apm{
+  display:flex;
+  flex-direction:column;
+ 
+  margin-left:20px;
+  margin-right:20px;
+}
+.performance1-apm{
+display:flex;
+flex-direction:row;
+margin-left:20px;
+margin-right:20px;
+}
+.let-apm{
+  color:#D8AC1B;
+  cursor: pointer;
+  font-size:12px;
+  font-weight:500;
+  padding-top:20px;
+}
+.bottom1-apm{
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:15px;
+  margin-top:20px;
+  width:40%;
+  border-radius:10px;
+  padding:10px;
+  height:180px;
+  background-color:#3C4069;
+  border:1px solid #747BA9;
+  color:white;
+}
+.bottom2-apm{
+  display:flex;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  flex-direction:row;  
+}
+.heading1-apm{
+  color:white;
+  font-size:14px;
+  font-weight:500;
+}
+.text1-apm{
+  font-size:12px;
+
+}

@@ -1,0 +1,580 @@
+.chatbot-container-veg {
+    margin-left: 0px;
+    width: 1000vh;
+    margin-top: 20px;
+    
+   }
+
+   .chatboticon-v {
+  
+    float: right;
+    margin-left: 60px;
+  }
+
+  .top-sum-v{
+    width: 5%;
+    margin-left: 850px;
+    float: right;
+    
+    
+  }
+   
+   .right-section-chat-veg {
+     /* background-color: rgba(0, 0, 0, 0.1); */
+     border-radius: 10px;
+     /* min-width: 550; */
+     /* margin-top: 20px; */
+     /* padding: 5px; */
+     /* margin-bottom: 20px; */
+     /* margin-left: 5px; */
+     height: 470px;
+     /* border-radius: 8px; */
+     border-width: 1px;
+     border-style: solid;
+     border-color: rgba(116, 123, 169, 1);
+     background-color: rgba(255, 255, 255, 0.05);
+     /* max-height: 450px; */
+   }
+   
+   .left-section-chat-veg {
+     background-color: rgba(30, 32, 61, 1);
+     border: 1px solid rgba(107, 92, 209, 1);
+     border-radius: 10px;
+     /* min-width: 500px; */
+     /* min-width: 680px; */
+     /* margin-left: 7px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-right: 20px; */
+     /* max-height: 450px; */
+     display: flex;
+     flex-direction: column;
+     height: 470px;
+   
+   }
+   
+   .title-chart-veg {
+     margin-top: 5px;
+     margin-left: 10px;
+     font-size: 13px;
+     font-family: Graphik;
+     font-weight: 400;
+   }
+   
+   .chat-input-container-chart-veg {
+     display: flex;
+   }
+   
+   .text-chart-veg {
+     margin-top: 30px;
+     color: white;
+     background-color: rgba(37, 40, 67, 1);
+     font-size: 14px;
+     font-weight: 300;
+     margin-right: 5px;
+     font-family: Graphik;
+     padding-left: 7px;
+     height: 50px;
+     width:100%;
+     border-radius: 10px;
+     border: 1px solid rgba(116, 123, 169, 1);
+     background-color: rgba(37, 40, 67, 1);
+     text-align:left;
+   }
+   
+   .chat-input-chart-veg {
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     padding: 2px;
+     width: 100%;
+     font-family: 'Graphik', sans-serif;
+     color: black;
+     font-size: 14px;
+     height: 10%;
+   }
+   .loader-doa {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+   }
+   
+   .loader-f-doa {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     width: 187px;
+     padding-top: 80px;
+   }
+   
+   .dot-doa {
+     width: 10px;
+     height: 10px;
+     margin: 0 5px;
+     border-radius: 50%;
+     display: inline-block;
+     animation: bounce 1.4s infinite ease-in-out;
+   }
+   
+   .red-doa {
+     background-color: #8070d4;
+     /* Red color */
+     animation-delay: -0.32s;
+   }
+   
+   .green-doa {
+     background-color: #8070d4;
+     /* Green color */
+     animation-delay: -0.16s;
+   }
+   
+   .blue-doa {
+     background-color: #8070d4;
+     /* Blue color */
+   }
+   
+   .loading-text-doa {
+     background-color: #3498db;
+     /* Red color */
+     animation-delay: -0.48s;
+   }
+   
+   @keyframes bounce {
+   
+     0%,
+     80%,
+     100% {
+       transform: translateY(0);
+     }
+   
+     40% {
+       transform: translateY(-10px);
+     }
+   }
+   
+   .img1-chart-veg {
+     text-align: right;
+   }
+   
+   .top-part-chart-veg {
+     height: 40px;
+     width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     display: flex;
+     flex-direction: row;
+     background-color: rgb(54, 54, 89);
+     padding: 5px;
+     color: white;
+     font-size: 13px;
+     font-weight: 500;
+   }
+   
+   .middile-part-chart-veg {
+     height: auto;
+     color: white;
+     font-size: 10px;
+   }
+   
+   .user-message-container-veg {
+     display: flex;
+     justify-content: flex-start;
+     /* Align to the left for user messages */
+     margin: 5px 0;
+   }
+   
+   .bot-message-container-veg {
+     display: flex;
+     justify-content: flex-end;
+     /* Align to the right for bot messages */
+     margin: 5px 0;
+   }
+   
+   .message-text-chart-veg {
+     padding: 10px 10px 10px 10px;
+     font-size: 14px;
+     color: white;
+     border-radius: 5px;
+     max-width: 1000px;
+     width: fit-content;
+     margin-left: 30px;
+   }
+   
+   /* Additional styles for user and bot message containers, e.g., background color, border, etc. */
+   
+   .chat-messages-c-veg {
+     height: 100%;
+     color: white;
+     font-size: 16px;
+     overflow-y: scroll;
+   }
+   .section::-webkit-scrollbar-thumb {
+     border: 5px solid transparent;
+     border-radius: 100px;
+     background-color: #8070d4;
+     background-clip: content-box;
+   }
+   .chat-message-chart-veg {
+     display: flex;
+     border-radius: 5px;
+     flex-direction: row;
+   }
+   
+   .chat-message-chart-veg.user-c-veg {
+     text-align: left;
+   }
+   
+   .user-c-veg {
+     /* align-items: end; */
+     min-width: 50px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     /* margin-right:10px; */
+     /* margin-left: 100px; */
+     text-align: left;
+     position: relative;
+     max-width: 500px;
+     /* padding: 10px; */
+     width: fit-content;
+     float: left;
+   }
+   
+   .bot-c-veg {
+     min-width: 50px;
+     margin-top: 10px;
+     position: relative;
+     max-width: 640px;
+     margin-bottom: 10px;
+     /* min-height: 60px; */
+     /* max-height: 100%; */
+     /* height: fit-content; */
+     /* display: block; */
+     /* overflow: auto; */
+     padding: 10px;
+     color: white;
+     text-align: left;
+     /* margin-right: 30px; */
+     width: fit-content;
+     float: left;
+   }
+   
+   .bg-user-veg {
+     background-color: rgba(116, 123, 169, 1);
+     border-radius: 0px 10px 10px 10px;
+     border-style: icon solid;
+     min-width: 50px;
+     margin-left: 40px;
+   }
+   
+   .bg-bot-veg {
+     background-color: rgba(45, 50, 90, 1);
+     border-radius: 0px 10px 10px 10px;
+     min-width: 50px;
+     max-width: 1200px;
+     /* height: auto; */
+   }
+   
+   .icon-chat-user-veg {
+     width: 25px;
+     position: absolute;
+     margin-left: 10px;
+     /* margin-right: 10px; */
+     /* bottom: -15px; */
+     /* left: -5px; */
+   }
+   
+   .icon-chat-bot-veg {
+     width: 25px;
+     position: absolute;
+     /* margin-right: 50px; */
+     /* bottom: -15px; */
+     /* right: -5px; */
+   }
+   
+   .key-table-cb-doa {
+     color: white;
+     padding-top: 15px;
+     padding-bottom: 5px;
+     font-size: 13px;
+     font-family: Graphik;
+     font-weight: 400;
+     margin-top: 27px;
+     margin-left: 6px;
+     line-height: 40px;
+     margin-bottom: 10px;
+   }
+   
+   .topside-doa {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 10px;
+   }
+   
+   .chat-table-doa {
+     width: 20px;
+   }
+   
+   .detected-ct-doa {
+     background-image: linear-gradient(to right, rgba(72, 48, 239, 1), rgba(128, 69, 237, 1));
+     height: 140px;
+     width: 200px;
+     margin-left: 15px;
+     border-radius: 8px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+   }
+   .heading-dt-doa{
+     color: white;
+     font-size: 14px;
+     height: 30px;
+     font-family: Graphik;
+     font-weight: 500;
+   text-align: center;
+   width: 150px;
+   margin-left: 25px;
+   }
+   
+   .chatbot-img-veg{
+     height: 90px;
+     width: 180px;
+     margin-left: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+   }
+   
+   .detected-ct-below-doa {
+     background-color: rgba(121, 93, 239, 1);
+     height: 50px;
+     width: 200px;
+     color: white;
+     font-size: 14px;
+     font-family: Graphik;
+     font-weight: 500;
+     margin-top: 14px;
+   text-align: center;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   padding: 5px;
+   }
+   .insights-head-doa{
+     color: white;
+     font-size: 15px;
+     font-family: Graphik;
+     font-weight: 420;
+   text-align: left;
+   margin-top: 20px;
+   margin-left: 10px;
+   }
+   
+   .insight-button-doa{
+     width: 400px;
+     display: flex;
+     margin-left: 10px;
+     margin-top: 10px;
+     flex-direction: column;
+   }
+   .insight-left-button-doa:hover {
+     background-color:rgba(116, 123, 169, 1);
+     transition: 0.7s;
+   }
+   .insight-left-button-l-doa:hover {
+     background-color:rgba(116, 123, 169, 1);
+     transition: 0.7s;
+   }
+   .insight-left-button-doa{
+     height: 30px;
+     min-width: 170px;
+     max-width: 210px;
+     border-radius: 18px;
+     border-style: solid;
+     border-color: rgba(116, 123, 169, 1);
+     border-width: 1px;
+     color: white;
+     font-size: 12px;
+     font-family: Graphik;
+     font-weight: 400;
+     background-color: 
+     rgba(37, 40, 67, 1);
+     text-align: center;
+     margin-bottom: 10px;
+   }
+   .insight-left-button-l-doa{
+     height: 30px;
+     width: 330px;
+     border-radius: 18px;
+     border-style: solid;
+     border-color: rgba(116, 123, 169, 1);
+     border-width: 1px;
+     color: white;
+     font-size: 12px;
+     font-family: Graphik;
+     font-weight: 400;
+     background-color: 
+     rgba(37, 40, 67, 1);
+     text-align: center;
+     margin-bottom: 10px;
+   }
+   
+   .send-icon-veg{
+     width:50px;
+     height: 90px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     padding-top: 35px;
+   }
+   
+   
+   .mic-chart-veg {
+     padding: 2px;
+     width: 25px;
+     height: 25px;
+     border-radius: 3px;
+     border: 1px solid rgba(116, 123, 169, 1);
+     background-color: rgba(37, 40, 67, 1);
+     margin-bottom: 10px;
+   }
+   
+   .send-chart-veg {
+     padding: 2px;
+     width: 25px;
+     height: 25px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid rgba(116, 123, 169, 1);
+     background-color: rgba(37, 40, 67, 1);
+   }
+   
+   .bottom-part-chart-veg{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     display: flex;
+     width: 100%;
+   }
+   
+   .midside-doa{
+     margin-top: 20px;
+     border-top: 1px solid  rgba(14, 190, 147, 1);
+   }
+   
+   .message-footer-doa{
+     display: flex;
+     /* background-color: rgba(116, 123, 169, 1); */
+     border: 1px solid  rgba(116, 123, 169, 1);
+     height: 34px;  
+     justify-content: space-between;
+     padding: 5px 10px 5px 10px;
+     margin: -10px;
+     border-radius: 0px 0px 10px 10px;
+     margin-top: 10px;
+   }
+   .msg-icon-doa{
+     width:17px;
+     float:right;
+     margin-right: 10px;
+     padding-top: 2px;
+   }
+   
+   .msg-icon-copy-doa{
+     width:12px;
+     float:right;
+     margin-right: 10px;
+     padding-top: 2px;
+   }
+   
+   .msg-icon-share-doa{
+     width:15px;
+     float:right;
+     margin-right: 10px;
+     padding-top: 2px;
+   }
+   
+   .border-score-doa{
+     margin-left: 10px;
+     padding-left: 10px;
+     border-left: 1px solid  white;
+     height: 20px;
+   }
+   
+   .topside-table-doa{
+     width:187px;
+     height: 180px;
+   }
+   
+   .cal-data-doa{
+     color: white;
+     padding: 2px;
+     margin-top: 6px;
+     margin-left: 10px;
+     display: flex;
+     flex-direction: row;
+   }
+   
+   .cal-one-doa {
+     padding-right: 50px;
+     /* justify-content: space-between; */
+   }
+   
+   .cal-row-doa {
+     display: flex;
+     flex-direction: row;
+     font-size: 12px;
+     font-family: Graphik;
+     padding-top: 10px;
+   }
+   
+   .container-cal-data-doa {
+       background-color: #25304C;
+       width: 100px;
+       height: 30px;
+       border-style: solid;
+       border-width: 1px;
+       border-radius: 5px;
+       border-color: #8d97dac5;
+       text-align: left;
+       padding: 5px;
+       color: white
+   }
+   
+   .processebutton-calculate-doa {
+     border-radius: 8px;
+     margin-right: 40px;
+     background-color: rgba(107, 92, 209, 1);
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     width: 140px;
+     height: 30px;
+     /* border-style: solid; */
+     border: 0px solid rgba(107, 92, 209, 1);
+     float: right;
+     margin-top: 30px;
+     margin-bottom: 10px;
+   }
+   
+   .add-data-veg{
+     overflow-y: scroll ;
+     
+     height: 90%;
+   }
+   
+   .table-doa {
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   .table-doa th {
+     border: 1px solid rgba(87, 95, 142, 1);
+     padding: 8px;
+     text-align: center;
+     background-color: rgba(60, 64, 105, 1);
+   }
+   .table-doa td {
+     border: 1px solid rgba(87, 95, 142, 1);
+     padding: 8px;
+     text-align: left;
+   }

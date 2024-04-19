@@ -1,0 +1,156 @@
+.summary-container {
+  display: flex;
+  flex-direction: row;
+  max-height: 200px;
+}
+
+.top-left-summ {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-top: 22px;
+  border: 1px solid rgba(116, 123, 169, 1);
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  width: 100%;
+  border-radius: 10px;
+}
+
+.barchart {
+  width: 100%;
+}
+
+.left-sum {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-icon-sum {
+  text-align: right;
+  padding-left: 20px;
+}
+
+.top-sum {
+  width: 3%;
+  margin-left: 5px;
+
+}
+
+.right-sum {
+
+  flex-direction: column;
+
+}
+
+.business-Heading-summ {
+  color: white;
+  font-family: 'Graphik', sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.key-table td {
+  padding: 9px;
+  border: 0.5px solid rgba(116, 123, 169, 1);
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 600px;
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  
+}
+
+.bottom-left-summ {
+  border: 1px solid rgba(116, 123, 169, 1);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.table.key-table {
+  border: 2px solid rgba(116, 123, 169, 1);
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.top-right-summ {
+  display: flex;
+  flex-direction: row;
+   background-color: rgba(255, 255, 255, 0.05);
+  width: 500px;
+  min-height: 180px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgba(116, 123, 169, 1);
+}
+
+.img-sum {
+  width: 55%;
+
+}
+
+.bottom-right-summ {
+  border-radius: 10px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(116, 123, 169, 1);
+  margin: 20px;
+}
+
+/* .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  width: 200px;
+  padding: 8px;
+  text-align: left;
+} */
+
+.bar-chart {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.pie-chart {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.detect-sum {
+  font-size: 13px;
+  padding-top: 30px;
+ 
+  padding-right: 10px;
+  font-weight: 400;
+  font-family: 'Graphik', sans-serif;
+  color: white;
+}
+
+.type-sum {
+  font-size: 13px;
+  color: white;
+  font-family: 'Graphik', sans-serif;
+  padding-top: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html * {
+          font-size: 16px;
+          line-height: 1.825;
+          font-family:  'Times New Roman', Times, serif;
+          padding-right: 20px; 
+          padding-left: 20px;
+          background-color: whitesmoke;  
+        }
+        h1{
+            text-align: center;
+        }
+        label {
+           font-weight: bold 100;
+           color: black;
+           display: inline-block;      
+        }
+        input {
+            border-color: black;
+            line-height: 2.0;
+            border-width: .05em;
+            padding-top: 20px;   
+            padding-bottom:20px ;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        button {
+            margin:auto;
+            top: 50%;
+            position: absolute;
+        }
+        .center-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center; 
+            /* height: 10px;  */
+            /* width: 500px; Adjust the width as needed */
+            margin: 0 auto; 
+        }
+        .box {
+            display: inline-block;
+            width: 150px;
+            height: 30px;
+            background-color: #E0E0E0;
+            padding: 1px;
+            border: 2px solid darkgray;
+            font-size: 15px;
+            text-align: center;   
+            float: none; 
+            justify-content: center;   
+            justify-self: end;     
+        }
+      </style>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+   <title>Work Order</title>
+</head>
+
+<body>
+
+<h1 style="background-color:plum;color:purple;font-size:300%;text-align:center;padding: 5px;  ">Company Unit</h1><br>
+    <form>
+        <div class="input-group" style="width:65%;float:left;">
+            <label for="Asset_ID"><strong>Asset ID:</strong>
+                <div class="center-container" style="width: 570px;">
+                <div class="box" style="float:center;">{{data.assetID}}</div>
+            </div>
+        </label>
+                       
+            
+            <!-- <input type="text" placeholder="Enter Asset Id" id="Asset_ID" name="asset_id"> -->
+            <p></p>
+            <label for="Asset_Hierarchy"><strong>Asset Hierarchy:</strong>
+                <div class="center-container" style="width: 465px;">
+                <div class="box" style="float:center;">{{data.plant}}
+                </div>
+                </div>
+            </label><br>
+            <!-- <input type="text" placeholder="Enter Asset Hierarchy" id="Asset_Hierarchy" name="asset_hierarchy"> -->
+            <p></p>
+            <label for="Asset_Head"><strong>Asset Head: </strong>
+                <div class="center-container" style="width: 532px;">    
+                <div class="box" style="float:center;">{{data.assetType}}</div>
+                </div>
+            </label><br>
+            <!-- <input type="text" placeholder="Enter Asset Head" id="Asset_Head" name="asset head"> -->
+            <p></p>
+        </div>
+        <div class="input-group" style="width:35%;float:right;">
+            <label for="WO_Date"><strong>Work Order Date: </strong>
+                <div class="box" style="float:center;">{{data.workOrderRasisedDate}}</div>
+            </label><br>
+            <!-- <input type="date" placeholder="Enter Work Order Date" id="wo_date" name="WO_Date"><br> -->
+            <p></p>            
+        </div>
+    </form>
+<!-- <h1 style="color:purple;font-size:200%;text-align: center;">Problem Reported By:</h1> -->
+    <form>
+        <div class="input-group" style="width:65%;float:left;">
+            <h1 style="color:purple;font-size:200%;text-align: left;">Problem Reported By:</h1>
+            <label for="Name"><strong>Name: </strong>
+                <div class="center-container" style="width: 598px;">
+                <div class="box" style="float:center;">{{data.name}}</div></div></label>
+            <!-- <input type="text" placeholder="Enter Reporter's Name" id="Name" name="name"> -->
+            <p></p>
+            <label for="Equipment_id"><strong>Equipment ID: </strong>
+                <div class="center-container" style="width: 483px;">
+                <div class="box" style="float:center;">{{data.assetID}}</div></div></label>
+            <!-- <input type="text" placeholder="Enter Equipment ID" id="Equipment_id" name="equipment_id"> -->
+            <p></p>
+            <label for="Failure_Probability"><strong>Failure Probability(in (%) percent): </strong>
+                <div class="center-container" style="width: 199px;">
+                <div class="box" style="float:center;">{{data.failureProbability}}</div></div></label>
+            <!-- <input type="text" placeholder="Enter Failure Probability" id="Failure_Probability" name="failure probability"> -->
+            <p></p>
+            <label for="LM_Date"><strong>Last Maintainance Date: </strong>
+                <div class="center-container" style="width: 350px;">
+                <div class="box" style="float:center;">{{data.lastMaintainanceDate}}</div></div></label>
+            <!-- <input type="date" placeholder="Enter Last Maintainance Date" id="lm_date" name="LM_Date"><br> -->
+            <p></p>
+            <label for="LI_Date"><strong>Last Inspection Date: </strong>
+                <div class="center-container" style="width: 396px;">
+                <div class="box" style="float:center;">{{data.lastInspectionDate}}</div></div></label><br>
+            <!-- <input type="date" placeholder="Enter Last Inspection Date" id="li_date" name="LI_Date"><br> -->
+            <label for="PD"><strong>Problem Description: </strong>
+                <div class="center-container" style="width: 396px;">
+                <div class="box" style="float:center;">{{data.lastInspectionComment}}</div></div></label><br>
+            <p></p>
+            <!-- <input type="text" cols="40" rows="10" style="width:200px; height:100px;" placeholder="Enter Problem Description" id="PD" name="pd"> -->
+            <p></p>
+
+        </div>
+        <div class="input-group" style="width:32%;float:right;">
+            <button style="background-color:plum;color:purple;font-size:100%;text-align:center;font-weight:bold;position:relative;float:cener;padding: 10px;border-radius:10px;" type="submit" onclick="alert('History of the asset id Maintainance:{{data.history}}')">Historical Report</button>
+            <!-- formaction="/action_page2.php" -->
+        </div>
+    </form>
+<form>
+    <div class="input-group" style="width:100%;float:left;">
+        <p></p> 
+        <label style="color:crimson;text-align:center;"for="Sol"><strong>Solution: </strong>{{data.workOrderComment}} ; {{data.typeofWorkOrder}}: {{data.resolutionComment}}</label>
+        <!-- <p>{{data.workOrderComment}}{{data.typeofWorkOrder}}{{data.resolutionComment}}</p> -->
+        <!-- <input type="text" cols="20" rows="10" style="width:900px; height:50px;" placeholder="Enter Solution" id="Sol" name="sol"> -->
+        <p></p> 
+        <label for="PL_lt"><strong>Probable Production Loss(Lt): </strong>
+            <div class="center-container" style="width: 273px;">
+            <div class="box" style="float:center;">{{data.productionLoss}}</div></div></label>
+        <!-- <input type="text" style="width:250px; height:20px;" placeholder="Enter Probable Production Loss(lt)" id="PL_lt" name="pl_lt"> -->
+        <p></p> 
+        <label for="PL_av"><strong>Probable Production Loss Avoided: </strong>
+            <div class="center-container" style="width: 209px;">
+            <div class="box" style="float:center;">{{data.productionLossAv}}</div></div></label>
+        <!-- <input type="text" style="width:250px; height:20px;" placeholder="Enter Probable Production Loss Avoided" id="PL_av" name="pl_av"> -->
+        <p></p>
+        <label for="Replace"><strong>Replacement Required:</strong></label>
+        <input type="radio" id="Yes" name="Replace" value="Yes">
+        <label for="Yes">YES</label>
+        <input type="radio" id="No" name="Replace" value="No">
+        <label for="Yes">NO</label><br>
+        <p></p>
+        <label for="RIA"><strong>Replacement Inventory Availabilty and Location in Warehouse: </strong></label><br>
+        <p></p>
+        </div>
+        <div class="input-group" style="width:35%;float:right;">
+            <label for="Auth"><strong>Authorised By: </strong>
+                <!-- <div class="center-container" style="width: 200px;"> -->
+                <div class="box" style="float:center;">{{data.authorisedBy}}</div>
+            <!-- </div> -->
+        </label>
+        </div>
+          
+</form>        
+</body>
+</html>

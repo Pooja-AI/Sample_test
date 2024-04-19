@@ -1,0 +1,58 @@
+<svg width="1639" height="602" viewBox="0 0 1639 602" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="406" y1="305" x2="1592" y2="305" stroke="#6B5CD1" stroke-width="4"/>
+<path d="M172 17L460 305" stroke="#8900C5" stroke-width="4"/>
+<path d="M645 17L933 305" stroke="#BC01FF" stroke-width="4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1545.88 214.096L1449 118V308H1639L1545.88 214.096ZM1639 308L1545.88 401.904L1449 498V308H1639Z" fill="#6B5CD1"/>
+<path d="M1083 17L1371 305" stroke="#D182FF" stroke-width="4"/>
+<path d="M354 596L499.5 450.5L645 305" stroke="#6961B2" stroke-width="4"/>
+<path d="M1070 364L1099.06 335.171L1127 307H1070V364Z" fill="#CD53AE"/>
+<path d="M1070 307L1040.94 335.829L1013 364H1070V307Z" fill="#CD53AE"/>
+<path d="M1317 307L1287.94 278.171L1260 250H1317V307Z" fill="#D182FF"/>
+<path d="M1317 250L1346.06 278.829L1374 307H1317V250Z" fill="#D182FF"/>
+<path d="M876 307L846.936 278.171L819 250H876V307Z" fill="#BC01FF"/>
+<path d="M876 250L905.064 278.829L933 307H876V250Z" fill="#BC01FF"/>
+<path d="M406 307L376.936 278.171L349 250H406V307Z" fill="#8900C5"/>
+<path d="M406 250L435.064 278.829L463 307H406V250Z" fill="#8900C5"/>
+<path d="M584 364L613.064 335.171L641 307H584V364Z" fill="#6961B2"/>
+<path d="M584 307L554.936 335.829L527 364H584V307Z" fill="#6961B2"/>
+<path d="M839 596L984.5 450.5L1130 305" stroke="#CD53AE" stroke-width="4"/>
+<line x1="290" y1="363.5" x2="585" y2="363.5" stroke="#6B5CD1"/>
+<line x1="775" y1="363.5" x2="1070" y2="363.5" stroke="#6B5CD1"/>
+<line x1="262" y1="390.5" x2="557" y2="390.5" stroke="#6B5CD1"/>
+<line x1="747" y1="390.5" x2="1042" y2="390.5" stroke="#6B5CD1"/>
+<line x1="235" y1="417.5" x2="530" y2="417.5" stroke="#6B5CD1"/>
+<line x1="720" y1="417.5" x2="1015" y2="417.5" stroke="#6B5CD1"/>
+<line x1="209" y1="444.5" x2="504" y2="444.5" stroke="#6B5CD1"/>
+<line x1="694" y1="444.5" x2="989" y2="444.5" stroke="#6B5CD1"/>
+<line x1="666" y1="471.5" x2="961" y2="471.5" stroke="#6B5CD1"/>
+<line x1="1012" y1="141.5" x2="1207" y2="141.5" stroke="#6B5CD1"/>
+<line x1="571" y1="141.5" x2="766" y2="141.5" stroke="#6B5CD1"/>
+<line x1="101" y1="141.5" x2="296" y2="141.5" stroke="#6B5CD1"/>
+<line x1="1039" y1="168.5" x2="1234" y2="168.5" stroke="#6B5CD1"/>
+<line x1="598" y1="168.5" x2="793" y2="168.5" stroke="#6B5CD1"/>
+<line x1="128" y1="168.5" x2="323" y2="168.5" stroke="#6B5CD1"/>
+<line x1="1066" y1="195.5" x2="1261" y2="195.5" stroke="#6B5CD1"/>
+<line x1="625" y1="195.5" x2="820" y2="195.5" stroke="#6B5CD1"/>
+<line x1="155" y1="195.5" x2="350" y2="195.5" stroke="#6B5CD1"/>
+<line x1="1093" y1="222.5" x2="1288" y2="222.5" stroke="#6B5CD1"/>
+<line x1="652" y1="222.5" x2="847" y2="222.5" stroke="#6B5CD1"/>
+<line x1="182" y1="222.5" x2="377" y2="222.5" stroke="#6B5CD1"/>
+<line x1="1122" y1="249.5" x2="1317" y2="249.5" stroke="#6B5CD1"/>
+<line x1="681" y1="249.5" x2="876" y2="249.5" stroke="#6B5CD1"/>
+<line x1="211" y1="249.5" x2="406" y2="249.5" stroke="#6B5CD1"/>
+<rect y="52" width="158" height="48" fill="#8900C5"/>
+<path d="M158 0L208.989 50.5769L258 100H158V0Z" fill="#8900C5"/>
+<rect y="52" width="16" height="48" fill="white" fill-opacity="0.52"/>
+<rect x="473" y="52" width="158" height="48" fill="#BC01FF"/>
+<path d="M631 0L681.989 50.5769L731 100H631V0Z" fill="#BC01FF"/>
+<rect x="473" y="52" width="16" height="48" fill="white" fill-opacity="0.52"/>
+<rect x="911" y="52" width="158" height="48" fill="#D182FF"/>
+<path d="M1069 0L1119.99 50.5769L1169 100H1069V0Z" fill="#D182FF"/>
+<rect x="909" y="52" width="16" height="48" fill="white" fill-opacity="0.52"/>
+<rect x="351" y="549.5" width="158" height="48" transform="rotate(180 351 549.5)" fill="#6961B3"/>
+<path d="M351 601.5L401.989 550.923L451 501.5H351V601.5Z" fill="#6961B3"/>
+<rect x="209" y="549.5" width="16" height="48" transform="rotate(180 209 549.5)" fill="white" fill-opacity="0.52"/>
+<rect x="836" y="550" width="158" height="48" transform="rotate(180 836 550)" fill="#CD53AE"/>
+<path d="M836 602L886.989 551.423L936 502H836V602Z" fill="#CD53AE"/>
+<rect x="694" y="550" width="16" height="48" transform="rotate(180 694 550)" fill="white" fill-opacity="0.52"/>
+</svg>

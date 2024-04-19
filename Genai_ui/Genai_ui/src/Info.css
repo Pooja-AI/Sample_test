@@ -1,0 +1,71 @@
+.modal-info-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-info {
+    background-color: rgba(30, 32, 61, 1);
+    border: 1px solid #6B5CD1;
+    border-radius: 8px;
+  }
+
+  .modal-content-info {
+    /* background: rgba(32, 35, 66, 1); */
+    border-radius: 15px;
+    /* width:100%;
+    height: 100%; */
+    position: relative;
+    margin: 20px;
+  }
+  .close-btn-info {
+    position: absolute;
+    margin-left: 95%;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+  }
+  .percent-logo{
+    width:5%;
+    padding-bottom:30px;
+  }
+
+  .para {
+    font-size: 11px;
+    font-weight: 355;
+    color: white;
+    font-family: Graphik;
+  }
+
+  .info-header-left{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: Graphik;
+    margin-left: -20px;
+    padding-bottom: 5px;
+  }
+  .info-header{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: Graphik;
+    padding-bottom: 5px;
+  }
+
+  .shri-pic{
+    width: 75px;
+    margin-left: 20px;
+  }
+  .jegan-pic{
+    width: 75px;
+  }

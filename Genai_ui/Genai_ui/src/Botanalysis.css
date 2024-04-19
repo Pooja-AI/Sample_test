@@ -1,0 +1,18 @@
+.chartborderright-bot {
+    /* margin-left: 13px; */
+    border-width: 1px;
+}
+.heading-topic-bot {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Graphik;
+    color: white;
+    margin-left: 10px;
+    padding: 2px
+}
+.points-bot {
+    font-size: 12px;
+    font-weight: 350;
+    font-family: Graphik;
+    color: rgb(199, 239, 246);
+}
